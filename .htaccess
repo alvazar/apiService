@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^(api|app)/.*$ app/init.php$2 [L]
+
+RewriteRule ^.*$ public/index.html$2 [L]

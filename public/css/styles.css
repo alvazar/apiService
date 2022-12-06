@@ -1,0 +1,29 @@
+.title {
+    font-size: 25px;
+    margin: 6px;
+}
+
+input, button, select {
+    font-size: 20px;
+    margin: 6px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.errors {
+    color: red;
+    margin: 6px;
+}
+
+.history {
+    margin: 6px;
+    display: grid;
+    grid-template-columns: 200px 160px 100px 150px 60px 60px;
+    row-gap: 6px;
+    max-height: 400px;
+    overflow-y: auto;
+    width: max-content;
+    padding-right: 100px;
+    font-size: 17px;
+}
